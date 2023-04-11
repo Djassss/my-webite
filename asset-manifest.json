@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-webite/static/css/main.df526812.css",
+    "main.js": "/my-webite/static/js/main.63269876.js",
+    "static/media/massimo_video.mp4": "/my-webite/static/media/massimo_video.f6d922b356772295f87f.mp4",
+    "static/media/search.png": "/my-webite/static/media/search.f2d70afd1ebdca42594e.png",
+    "index.html": "/my-webite/index.html",
+    "main.df526812.css.map": "/my-webite/static/css/main.df526812.css.map",
+    "main.63269876.js.map": "/my-webite/static/js/main.63269876.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df526812.css",
+    "static/js/main.63269876.js"
+  ]
+}
