@@ -8,9 +8,14 @@ import
 
 import x from '../videos-img/cancel.png'
 import s from '../videos-img/search.png'
+import minus from '../videos-img/minus (1).png'
+import plus from '../videos-img/plus.png'
+
 
 const Logo = () => {
     const [toggle, setToggle] = useState(false);
+    const [btn, setBtn] = useState(false);
+
 
 
     return(
@@ -44,6 +49,30 @@ const Logo = () => {
            <div className='h4'>
              <h4>Seleccionar otro mercado:</h4>
            </div>
+
+            <div className='list'>
+                <ul>
+                    <li onClick={() => setBtn(btn ? false : true)}>america <span><img src={plus} /></span>
+                   {btn && ( <div>
+                            <ul className='little_list'>
+                                <li>asia <span><img src={plus} /></span></li>
+                                <li>europa <span><img src={plus} /></span></li>
+                                <li>oceania <span><img src={plus} /></span></li>
+                                <li>africa <span><img src={plus} /></span></li>
+                                <li>sea <span><img src={plus} /></span></li>
+                                <li>sea <span><img src={plus} /></span></li>
+                            </ul>
+                        </div>)}
+                    </li>
+                    <li>asia <span><img src={plus} /></span></li>
+                    <li>europa <span><img src={plus} /></span></li>
+                    <li>oceania <span><img src={plus} /></span></li>
+                    <li>africa <span><img src={plus} /></span></li>
+                    <li>sea <span><img src={plus} /></span></li>
+                </ul>
+         
+            </div>
+
         </div>
         </>
     )

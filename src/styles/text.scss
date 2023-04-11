@@ -151,6 +151,51 @@
 
     h4{
         margin-top: 25px;
+        font-size: 13px;
+    }
+
+    .list{
+        ul{
+            margin-top: 20px;
+            li{
+                padding: 25px 10px;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                cursor: pointer;
+                border-bottom: 1px solid #dad7d7;
+                text-transform: capitalize;
+                font-size: 12px;
+                transition: 0.5s;
+                &:hover{
+                    border-bottom: 1px solid #000;
+                    transition: 0.5s;
+
+                }
+                span{
+                    img{
+                        width: 12px;
+                    }
+                }
+                div{
+                    position: absolute;
+                    margin-top: 37px;
+                    width: 410px;
+                    height: 450px;
+                    background: #ddd;
+                    border-radius: 5px;
+                    .little_list{
+                        li{
+                            border: none;
+                            margin-left: 30px;
+                            &:hover{
+                                border-bottom: 1px solid #000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
